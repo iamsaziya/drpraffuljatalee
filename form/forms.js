@@ -179,7 +179,8 @@
 					$(form).ajaxSubmit({
 						type: "POST",
 						data: $(form).serialize(),
-						url: "form/process-booking.php",
+						dataType: 'json',
+						url: "https://formsubmit.co/ajax/saziyaaansari.30@gmail.com",
 						success: function success() {
 							$('.successform', $bookingForm).fadeIn();
 							$bookingForm.get(0).reset();
