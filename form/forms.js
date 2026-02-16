@@ -180,7 +180,7 @@
 						type: "POST",
 						data: $(form).serialize(),
 						dataType: 'json',
-						url: "https://formsubmit.co/ajax/saziyaaansari.30@gmail.com",
+						url: "https://formsubmit.co/ajax/drpraffuljpetct@gmail.com",
 						success: function success() {
 							$('.successform', $bookingForm).fadeIn();
 							$bookingForm.get(0).reset();
