@@ -5,7 +5,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<meta name="description" content="html 5 template, dentist, stomatologist, dental clinic template, medical template, clinic template, surgery clinic theme, plastic surgery template">
+	<meta name="description"
+		content="html 5 template, dentist, stomatologist, dental clinic template, medical template, clinic template, surgery clinic theme, plastic surgery template">
 	<meta name="author" content="websmirno.site">
 	<meta name="format-detection" content="telephone=no">
 	<title>Dr Prafful Jatale</title>
@@ -15,18 +16,115 @@
 	<link href="icons/style.css" rel="stylesheet">
 	<link href="vendor/bootstrap-datetimepicker/bootstrap-datetimepicker.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
-    <link href="color/color.css" rel="stylesheet">
-<!--Favicon-->
+	<link href="color/color.css" rel="stylesheet">
+	<style>
+
+.spect-section {
+  margin-top: 50px;
+  text-align: left;        /* force left alignment */
+}
+
+.section-title {
+  text-align: left;        /* title left */
+  margin-bottom: 20px; 
+    padding: 20px;
+
+}
+
+.spect-content {
+  max-width: none;         /* remove center constraint */
+  margin: 0;               /* remove auto centering */
+}
+
+.spect-block {
+  background: #f9fafb;
+  border-left: 4px solid #2563eb;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+.spect-block h3 {
+  margin-bottom: 6px;
+  color: #1f2937;
+  text-align: left;
+}
+
+.spect-block p,
+.spect-block li {
+  color: #4b5563;
+  line-height: 1.6;
+  text-align: left;
+}
+
+
+.container {
+  text-align: left;
+}
+
+
+
+		/* Paragraphs */
+		.services-text {
+			font-size: 17px;
+			line-height: 1.7;
+			color: #374151;
+			margin-bottom: 12px;
+			text-align: left;
+			/* LEFT ALIGN */
+		}
+
+		/* List reset */
+		.scan-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+			gap: 18px;
+			margin-top: 20px;
+			
+		}
+
+		.scan-card {
+			background: #ffffff;
+			border: 1px solid #e5e7eb;
+			border-radius: 10px;
+			padding: 15px;
+		}
+
+		.scan-card h4 {
+			margin-bottom: 8px;
+			color: #1f2937;
+			font-size: 18px;
+		}
+
+		.scan-card ul {
+			padding-left: 18px;
+			margin: 0;
+		}
+
+		.scan-card li {
+			font-size: 16px;
+			margin-bottom: 6px;
+			color: #4b5563;
+		}
+
+
+		/* Remove template ticks/icons */
+		.services-list li::before {
+			content: none !important;
+		}
+	</style>
+	<!--Favicon-->
 	<link rel="icon" href="images/favi.png" type="image/x-icon">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 	<!-- Google map -->
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
+	<script type="text/javascript"
+		src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
 </head>
 
 <body class="shop-page">
-	
+
 	<!-- <div class="settings-panel">
 		<div class="settings-panel-buy-now">
 			<a href="https://themeforest.net/item/medin-medical-clinic-html-template/22564438?s_rank=1" target="_blank" class="settings-panel-btn btn-primary">
@@ -60,8 +158,8 @@
 			</div>
 		</div>
 	</div> -->
-<!--header-->
-<header class="header">
+	<!--header-->
+	<header class="header">
 		<div class="header-quickLinks js-header-quickLinks d-lg-none">
 			<div class="quickLinks-top js-quickLinks-top"></div>
 			<div class="js-quickLinks-wrap-m">
@@ -71,9 +169,12 @@
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-auto d-flex align-items-center">
-						<div class="header-phone"><i class="icon-telephone"></i><a href="tel:1-847-555-5555">+91 7796100800</a></div>
-						<div class="header-info"><i class="icon-placeholder2"></i>Emrald Medical Research Pvt. Ltd. ,Plot no- 77, 111, Darga Rd,  Ulkanagari, Chh. Sambhajinagar, Maharashtra-431003</div>
-						<div class="header-info"><i class="icon-black-envelope"></i><a href="mailto:drpraffuljpetct@gmail.com">drpraffuljpetct@gmail.com</a></div>
+						<div class="header-phone"><i class="icon-telephone"></i><a href="tel:1-847-555-5555">+91
+								7796100800</a></div>
+						<div class="header-info"><i class="icon-placeholder2"></i>Emrald Medical Research Pvt. Ltd.
+							,Plot no- 77, 111, Darga Rd, Ulkanagari, Chh. Sambhajinagar, Maharashtra-431003</div>
+						<div class="header-info"><i class="icon-black-envelope"></i><a
+								href="mailto:drpraffuljpetct@gmail.com">drpraffuljpetct@gmail.com</a></div>
 					</div>
 					<!-- <div class="col-auto ml-auto d-flex align-items-center">
 						<span class="header-social">
@@ -92,9 +193,10 @@
 						<span class="icon-menu"></span>
 					</button>
 					<div class="col-lg-auto col-lg-2 d-flex align-items-lg-center">
-						<a href="index.html" class="header-logo"><img src="./images/Dr. Prafful Jatale. (3).png" alt="" height="100px" class="img-fluid"></a>
+						<a href="index.html" class="header-logo"><img src="./images/Dr. Prafful Jatale. (3).png" alt=""
+								height="100px" class="img-fluid"></a>
 					</div>
-						<div class="col-lg ml-auto header-nav-wrap">
+					<div class="col-lg ml-auto header-nav-wrap">
 						<div class="header-nav js-header-nav">
 							<nav class="navbar navbar-expand-lg btco-hover-menu">
 								<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -103,11 +205,12 @@
 											<a href="about.html" class="nav-link dropdown-toggle"
 												data-toggle="dropdown">About Us</a>
 											<ul class="dropdown-menu">
-												<li><a class="dropdown-item" href="achievements.html">Achievements</a></li>
-												
+												<li><a class="dropdown-item" href="achievements.html">Achievements</a>
+												</li>
+
 											</ul>
 										</li>
-										<li class="nav-item"> 
+										<li class="nav-item">
 											<a href="services.html" class="nav-link">Services</a>
 											<!-- <ul class="dropdown-menu">
 												<li><a class="dropdown-item" href="services.html">All Services</a></li>
@@ -117,7 +220,7 @@
 											</ul> -->
 										</li>
 										<li class="nav-item">
-											<a href="gallery.html" class="nav-link"	>Gallery</a>
+											<a href="gallery.html" class="nav-link">Gallery</a>
 											<!-- <ul class="dropdown-menu">
 												<li><a class="dropdown-item" href="gallery.html">Creative Gallery</a></li>
 												<li><a class="dropdown-item" href="gallery-simple.html">Simple Gallery</a></li>
@@ -130,11 +233,12 @@
 												<li><a class="dropdown-item" href="doctor-page.html">Doctor Page</a></li>
 												<li><a class="dropdown-item" href="schedule.html">Schedule Table</a></li>
 											</ul> -->
-										</li>										<li class="nav-item">
+										</li>
+										<li class="nav-item">
 											<a class="nav-link" href="testimonials.html">Testimonials</a>
 										</li>
 										<li class="nav-item dropdown">
-											<a  class="nav-link"  href="blog.html">Blog</a>
+											<a class="nav-link" href="blog.html">Blog</a>
 											<!-- <ul class="dropdown-menu">
 												<li><a class="dropdown-item" href="blog.html">Blog Posts</a></li>
 												<li><a class="dropdown-item" href="blog-grid.html">Blog Grid Posts</a></li>
@@ -144,7 +248,7 @@
 										<li class="nav-item">
 											<a class="nav-link" href="contact.html">Contact</a>
 										</li>
-</ul>
+									</ul>
 								</div>
 							</nav>
 						</div>
@@ -394,11 +498,16 @@
 				<div class="text-center mb-2  mb-md-3 mb-lg-4">
 					<div class="h-sub theme-color">What We Offer</div>
 					<h1>Our Services</h1>
-					<div class="h-decor"></div>
-					<div class="text-center mt-4">
-						<p>Under Dr. Prafulla Jatale, CARE CIIGMA offers precise PET-CT scans for accurate diagnosis, treatment planning, and patient-focused care.
-							</p>
-					</div>
+					<p class="services-text" style="text-align: center;"> The nuclear medicine
+						department at the center is equipped with advanced facilities and offers high-end services that
+						support accurate and precise cancer diagnoses. Further, some of the highly experienced and
+						the
+						best nuclear medicine specialists in Region are available at the center and they are trained to
+						deliver the highest quality nuclear medicine solutions.
+
+					</p>
+
+				
 				</div>
 			</div>
 			<div class="container">
@@ -406,68 +515,76 @@
 					<div class="col-md-6 col-lg-4">
 						<div class="service-card">
 							<div class="service-card-photo">
-								<a href="#"><img src="images/content/oncology.jpg" class="img-fluid" alt="" style="height: 250px; width: 100%;"></a>
+								<a href="#"><img src="images/content/oncology.jpg" class="img-fluid" alt=""
+										style="height: 250px; width: 100%;"></a>
 							</div>
 							<h5 class="service-card-name"><a href="#">Oncology (Cancer Imaging & Monitoring)</a></h5>
 							<div class="h-decor"></div>
-							<p>Early detection, accurate tumor localization, staging, and monitoring treatment response.</p>
+							<p>Early detection, accurate tumor localization, staging, and monitoring treatment response.
+							</p>
 							<ul class="marker-list-md">
 								<li>Early detection and staging of cancers</li>
 								<li> Monitoring treatment response and detecting recurrences</li>
 								<li>Precise tumor localization with PET-CT</li>
-							
+
 							</ul>
 						</div>
 					</div>
 					<div class="col-md-6 col-lg-4">
 						<div class="service-card">
 							<div class="service-card-photo">
-								<a href="#"><img src="images/content/nuero.jpg" class="img-fluid" alt="" ></a>
+								<a href="#"><img src="images/content/nuero.jpg" class="img-fluid" alt=""></a>
 							</div>
 							<h5 class="service-card-name"><a href="#">Neurology (Brain Disorders)</a></h5>
 							<div class="h-decor"></div>
-							<p>Assessment of Alzheimer’s, dementia, epilepsy, Parkinson’s, and brain tumors for precise diagnosis.</p>
+							<p>Assessment of Alzheimer’s, dementia, epilepsy, Parkinson’s, and brain tumors for precise
+								diagnosis.</p>
 							<ul class="marker-list-md">
 								<li>Evaluation of Alzheimer’s, dementia, epilepsy, and Parkinson’s disease</li>
 								<li>Assessment of brain tumors and neurological conditions</li>
-								
+
 							</ul>
 						</div>
 					</div>
 					<div class="col-md-6 col-lg-4">
 						<div class="service-card">
 							<div class="service-card-photo">
-								<a href="#"><img src="images/content/heart.jpg" class="img-fluid" alt="" style="height: 250px;"></a>
+								<a href="#"><img src="images/content/heart.jpg" class="img-fluid" alt=""
+										style="height: 250px;"></a>
 							</div>
 							<h5 class="service-card-name"><a href="#">Cardiology (Heart Disease Imaging)</a></h5>
 							<div class="h-decor"></div>
-							<p>Evaluation of heart function, blood flow, and myocardial viability for effective treatment planning. </p>
+							<p>Evaluation of heart function, blood flow, and myocardial viability for effective
+								treatment planning. </p>
 							<ul class="marker-list-md">
 								<li>Assessment of myocardial viability in coronary artery disease</li>
 								<li>Evaluation of heart function and detection of abnormalities</li>
-							
+
 							</ul>
 						</div>
 					</div>
 					<div class="col-md-6 col-lg-4">
 						<div class="service-card">
 							<div class="service-card-photo">
-								<a href="#"><img src="images/content/th.png" class="img-fluid" alt="" style="height: 250px;"></a>
+								<a href="#"><img src="images/content/th.png" class="img-fluid" alt=""
+										style="height: 250px;"></a>
 							</div>
 							<h5 class="service-card-name"><a href="#">Thyroid and Endocrine PET Imaging</a></h5>
 							<div class="h-decor"></div>
-							<p>Detection of thyroid disorders, nodules, and endocrine tumors to guide targeted therapies.</p>
+							<p>Detection of thyroid disorders, nodules, and endocrine tumors to guide targeted
+								therapies.</p>
 							<ul class="marker-list-md">
 								<li>Assessment of thyroid disorders, nodules, and endocrine tumors</li>
 								<li>Helps in planning targeted therapies</li>
-							
+
 							</ul>
 						</div>
 					</div>
 					<div class="col-md-6 col-lg-4">
 						<div class="service-card">
 							<div class="service-card-photo">
-								<a href="#"><img src="images/content/service-0.jpeg" class="img-fluid" alt="" style="height: 250px;"></a>
+								<a href="#"><img src="images/content/service-0.jpeg" class="img-fluid" alt=""
+										style="height: 250px;"></a>
 							</div>
 							<h5 class="service-card-name"><a href="#">Infection and Inflammation Imaging</a></h5>
 							<div class="h-decor"></div>
@@ -475,39 +592,388 @@
 							<ul class="marker-list-md">
 								<li>Detection of hidden infections or inflammatory conditions</li>
 								<li>Supports targeted treatment planning</li>
-								
+
 							</ul>
 						</div>
 					</div>
 					<div class="col-md-6 col-lg-4">
 						<div class="service-card">
 							<div class="service-card-photo">
-								<a href="#"><img src="images/content/service-6.jpeg" class="img-fluid" alt=""></a>
+								<a href="#"><img src="images/content/service-6.jpeg" class="img-fluid" alt="" ></a>
 							</div>
 							<h5 class="service-card-name"><a href="#">Advanced PET-CT Technology & Theranostics</a></h5>
 							<p>Combining PET and CT for accurate diagnosis and personalized therapy planning.</p>
 							<ul class="marker-list-md">
-								<li>Combines PET (functional imaging) and CT (anatomical imaging) for highly accurate diagnosis</li>
+								<li>Combines PET (functional imaging) and CT (anatomical imaging) for highly accurate
+									diagnosis</li>
 								<li>Enables personalized therapy using theranostic approaches</li>
-								
+
 							</ul>
 						</div>
 					</div>
-					
+
+
+
+					<div class="col-md-6 col-lg-4">
+						<div class="service-card">
+							<div class="service-card-photo">
+								<a href="#"><img src="images/content/pettt.jpg" class="img-fluid" alt=""></a>
+							</div>
+							<h5 class="service-card-name"><a href="#">PET – CT Scan With or Without MRI fusion</a></h5>
+							<p>Center has the facility for performing PET-CT scans with or without MRI fusion.  </p>
+							<ul class="marker-list-md">
+								<li>When
+								performed with MRI fusion, the technique combines the benefits of all three imaging
+								techniques.</li>
+								<li>It enhances the diagnostic precision and helps in appropriately evaluating
+								whether there is a need to change the treatment strategy.</li>
+
+							</ul>
+						</div>
+					</div>
+
+
+
+					<div class="col-md-6 col-lg-4">
+						<div class="service-card">
+							<div class="service-card-photo">
+								<a href="#"><img src="images/content/ct.jpg" class="img-fluid" alt=""></a>
+							</div>
+							<h5 class="service-card-name"><a href="#">PET- CT-based Radiotherapy Planning</a></h5>
+							<p>The center also has facilities for PET-CT-based radiotherapy planning. </p>
+							<ul class="marker-list-md">
+								<li>The surgeon plans
+									radiotherapy based on the images obtained through the PET-CT scan.</li>
+								<li>It improves the
+									outcome and reduces healthy tissue damage.</li>
+
+							</ul>
+						</div>
+					</div>
+
+
+					<div class="col-md-6 col-lg-4">
+						<div class="service-card">
+							<div class="service-card-photo">
+								<a href="#"><img src="images/content/treatment.jpg" class="img-fluid" alt="" style="height: 250px; width: 100%;" ></a>
+							</div>
+							<h5 class="service-card-name"><a href="#">PET- CT-based Treatment Response Evaluation</a>
+							</h5>
+							<p>PET-CT results are used to determine the treatment response. .</p>
+							<ul class="marker-list-md">
+								<li>It helps the doctors in
+									evaluating if they should be continuing the treatment or altering the treatment
+									strategy.</li>
+								<!-- <li>Enables personalized therapy using theranostic approaches</li> -->
+
+							</ul>
+						</div>
+					</div>
+
+
+					<div class="col-md-6 col-lg-4">
+						<div class="service-card">
+							<div class="service-card-photo">
+								<a href="#"><img src="images/content/biopsy.jpg" class="img-fluid" alt=""></a>
+							</div>
+							<h5 class="service-card-name"><a href="#">PET- CT-based Biopsy Guidance</a></h5>
+							<p>Compared to CT-guided Biopsy.</p>
+							<ul class="marker-list-md">
+								<li> PET-CT-guided biopsy is a highly effective and safe
+									alternative for tumor diagnosis.</li>
+								<li>Whole Body PET-CT: The facility of whole-body PET-CT is
+									available at HCG Manavata Cancer Center; this allows doctors to screen and
+									accurately
+									diagnose cancer.</li>
+
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-4">
+						<div class="service-card">
+							<div class="service-card-photo">
+								<a href="#"><img src="images/content/heart-s.jpg" class="img-fluid" alt="" style="height: 250px;"></a>
+							</div>
+							<h5 class="service-card-name"><a href="#">Cardiac PET-CT</a></h5>
+							<p>MRI and echocardiography are two effective methods for diagnosing cardiac tumors. </p>
+							<ul class="marker-list-md">
+								<li>PET in combination with MRI or CT improves the overall diagnostic efficacy.</li>
+								<!-- <li>Enables personalized therapy using theranostic approaches</li> -->
+
+							</ul>
+						</div>
+					</div>
+
+
+					<div class="col-md-6 col-lg-4">
+						<div class="service-card">
+							<div class="service-card-photo">
+								<a href="#"><img src="images/content/thyroid.jpg" class="img-fluid" alt="" style="height: 250px;"></a>
+							</div>
+							<h5 class="service-card-name"><a href="#">Radioactive Iodine Therapy</a></h5>
+							<p> Facilities for radioactive iodine therapy, which is involved in treating several
+								cancers, are also available Facilities.</p>
+							<!-- <ul class="marker-list-md">
+								<li>Combines PET (functional imaging) and CT (anatomical imaging) for highly accurate
+									diagnosis</li>
+								<li>Enables personalized therapy using theranostic approaches</li>
+
+							</ul> -->
+						</div>
+					</div>
+
+
+					<div class="col-md-6 col-lg-4">
+						<div class="service-card">
+							<div class="service-card-photo">
+								<a href="#"><img src="images/content/mri.jpg" class="img-fluid" alt="" style="height: 250px;"></a>
+							</div>
+							<h5 class="service-card-name"><a href="#">Magnetic Resonance Imaging</a></h5>
+							<p> It is an advanced and rapid technology for diagnosing cancer.</p>
+							<ul class="marker-list-md">
+								<li> It involves using radio
+									waves and magnets to develop clear images of the internal structures.</li>
+								<li>The MRI does not
+									use ionizing radiations.</li>
+
+							</ul>
+						</div>
+					</div>
+
+
+					<div class="col-md-6 col-lg-4">
+						<div class="service-card">
+							<div class="service-card-photo">
+								<a href="#"><img src="images/content/spect.jpg" class="img-fluid" alt=""></a>
+							</div>
+							<h5 class="service-card-name"><a href="#">SPECT</a></h5>
+							<p>It is a nuclear medicine test </p>
+							<ul class="marker-list-md">
+								<li>that allows the doctor to evaluate the functioning of the
+									internal structure.</li>
+								<li> It also helps to determine the activity of a particular organ.</li>
+
+							</ul>
+						</div>
+					</div>
+
+
+					<div class="col-md-6 col-lg-4">
+						<div class="service-card">
+							<div class="service-card-photo">
+								<a href="#"><img src="images/content/pettt.jpg" class="img-fluid" alt=""></a>
+							</div>
+							<h5 class="service-card-name"><a href="#"> PET-CT</a></h5>
+							<p>This scanning technology offers several advantages over either scanning technique alone.
+
+							</p>
+							<ul class="marker-list-md">
+								<li>This technology provides the biochemical and structural details of the internal
+									organs</li>
+								<li>and this data helps technologists arrive at an accurate diagnosis for various health
+									conditions.</li>
+
+							</ul>
+						</div>
+					</div>
+
+
+
 				</div>
+
+
+				<section class="spect-section">
+  <h2 class="section-title">SPECT (Gamma Camera)</h2>
+
+  <div class="spect-content">
+
+    <div class="spect-block">
+      <h3>What is SPECT?</h3>
+      <p>
+       Single-photon emission computerized tomography (SPECT) scan is used to analyze the functions of the internal organs. A SPECT scan is a type of nuclear imaging test, which means it uses a radioactive substance and a special camera to create 3D pictures.
+While imaging tests such as X-rays can show what the structures inside your body look like, a SPECT scan produces images that show how your organs work. For instance, a SPECT scan can show how blood flows to your heart or what areas of your brain are more active or less active.
+      </p>
+    </div>
+
+    <div class="spect-block">
+      <h3>How does a SPET Scan Work?</h3>
+      <p>
+       
+A SPECT scan integrates two technologies, i.e computed tomography (CT) and a radioactive material (tracer) to view the body. Doctors can see how blood is pumped to tissues and organs because of the tracer.
+A radioactive substance is given through IV and the tracer dose is very small but the radioactive substance is absorbed more by the most active tissues.
+The SPECT machine camera detects the absorbed radioactive tracers in the body, it takes pictures and they are sent to a computer that creates a 3D image of the body or body part.
+Benefits of SPET CT at EMRALD PETCT CENTRE 
+
+Patient experience: make the most of their time while lessening their dose
+Provide shorter, more tolerable exams for greater patient comfort, with Evolution technology.
+Streamlined exam setup leaves you with more time to interact with your patient while increasing throughput.
+Improves patient experience and enhances patient satisfaction.Our Dr Speaks persnoally with all patients and listen . 
+      </p>
+    </div>
+
+    <div class="spect-block">
+      <h3>Why am I having a SPECT scan?</h3>
+     <p>
+		A SPECT Scan is used to diagnose or monitor disorders of brain, heart and bone. Is there any preparation on the day of the scan? What to bring and wear
+Bring all your previous reports especially Chest X-rays, PET Scans, CT & MRI Scan with Xerox of the CT/MRI written reports.
+Please bring your Doctor's note.
+Kindly remove metallic accessories and jewellery from your body.
+	 </p>
+    </div>
+
+    <div class="spect-block">
+      <h3>Preparation</h3>
+      <p>Arrive on time
+
+Please ensure your presence on scheduled appointment time.
+If you must cancel or reschedule, please do so at least 24 hours before your appointment. Your SPECT Scan
+After registering, you will go to a preparation area where a technologist will insert radioactive substance through an intravenous (IV) infusion into a vein in your arm.
+You will be asked to lie down for 20 minutes or more in the room, but you may feel cold sensation when the radioactive substance enters the body and it would be absorbed by the body. Sometimes it takes a few hours for it to be absorbed by the body
+In case of any extra or delayed scans are needed, the doctor/technologist will personally explain to you. After your scan
+Most of the radioactive tracer will be flushed out of your body through urine after few hours of scan. Yet some times one is instructed to drink more fluids, such as juice or water.</p>
+    </div>
+
+   
+
+  </div>
+</section>
+
+
+
+
+
+
+
+<h3 style=" margin-top: 65px;">Radionuclide Scans</h3>
+  <p class="section-text">
+    Our center provides a comprehensive range of radionuclide scans across
+    multiple specialties for accurate diagnosis and treatment planning.
+  </p>
+
+				<div class="scan-grid">
+
+					
+
+						<div class="scan-card">
+							<h4>Gastroenterology</h4>
+							<ul>
+								<li>Hepatobiliary scan</li>
+								<li>Gastro-oesophageal reflux</li>
+								<li>GI Bleed Scintigraphy</li>
+								<li>Meckel’s diverticulum Scintigraphy</li>
+								<li>Gastric emptying</li>
+								<li>Blood pool study</li>
+							</ul>
+						</div>
+
+						<div class="scan-card">
+							<h4>Nephrourology</h4>
+							<ul>
+								<li>Renogram</li>
+								<li>Renal scan (DMSA-III)</li>
+								<li>Vesicoureteric reflux</li>
+							</ul>
+						</div>
+
+						<div class="scan-card">
+							<h4>Pulmonary System</h4>
+							<ul>
+								<li>Lung perfusion</li>
+							</ul>
+						</div>
+
+						<div class="scan-card">
+							<h4>Neurology</h4>
+							<ul>
+								<li>Brain SPECT scan</li>
+							</ul>
+						</div>
+
+						<div class="scan-card">
+							<h4>Oncology</h4>
+							<ul>
+								<li>Scintimammography</li>
+								<li>Gallium scan</li>
+								<li>Liver/Spleen SPECT scan</li>
+								<li>MIBI scan</li>
+								<li>DMSA–V Scan</li>
+							</ul>
+						</div>
+
+						<div class="scan-card">
+							<h4>Orthopaedics</h4>
+							<ul>
+								<li>Bone scan</li>
+								<li>Bone graft viability</li>
+							</ul>
+						</div>
+
+						<div class="scan-card">
+							<h4>Cardiology</h4>
+							<ul>
+								<li>Myocardial Perfusion Scintigraphy</li>
+								<li>Myocardial viability</li>
+								<li>LV ejection fraction (MUGA)</li>
+							</ul>
+						</div>
+
+						<div class="scan-card">
+							<h4>Endocrine</h4>
+							<ul>
+								<li>Thyroid scan</li>
+								<li>I-131 Whole body scan</li>
+								<li>I-131 MIBG scan</li>
+								<li>Parathyroid scintigraphy</li>
+							</ul>
+						</div>
+
+						<div class="scan-card">
+							<h4>Others</h4>
+							<ul>
+								<li>Lymphoscintigraphy</li>
+								<li>Gallium scan for infection</li>
+								<li>Dacryoscintigraphy</li>
+								<li>Salivary Scintigraphy</li>
+								<li>Radionuclide Venogram</li>
+							</ul>
+						</div>
+
+						<div class="scan-card">
+							<h4>Radionuclide Therapy</h4>
+							<ul>
+								<li>I-131 therapy for hyperthyroidism</li>
+								<li>I-131 therapy for differentiated thyroid cancer</li>
+								<li>Palliative treatment of painful bone metastasis</li>
+								<li>P-32 therapy for Polycythemia Vera</li>
+							</ul>
+						</div>
+
+					</div>
+
+
 			</div>
+
+
+
+
+				
 		</div>
+
+
+		
 		<!--//section-->
 	</div>
 	<!--footer-->
-<div class="footer mt-0">
+	<div class="footer mt-0">
 		<div class="container">
 			<div class="row py-1 py-md-2 px-lg-0">
 				<div class="col-lg-4 footer-col1">
 					<div class="row flex-column flex-md-row flex-lg-column">
 						<div class="col-md col-lg-auto">
 							<div class="footer-logo">
-								<img src="images/Dr. Prafful Jatale. (3).png" alt="" style="height:60px;" class="img-fluid">
+								<img src="images/Dr. Prafful Jatale. (3).png" alt="" style="height:60px;"
+									class="img-fluid">
 							</div>
 							<!-- <div class="mt-2 mt-lg-0"></div>
 							<div class="footer-social d-none d-md-block d-lg-none">
@@ -519,7 +985,8 @@
 						</div>
 						<div class="col-md">
 							<div class="footer-text mt-1 mt-lg-2">
-								<p>Contact Dr. Prafful Jatale for expert Nuclear Medicine and PET-CT care. <br> Schedule your appointment today for advanced diagnostics.
+								<p>Contact Dr. Prafful Jatale for expert Nuclear Medicine and PET-CT care. <br> Schedule
+									your appointment today for advanced diagnostics.
 								</p>
 								<a href="contact.html" class="btn-link">contact us<i class="icon-right-arrow"></i></a>
 								<!-- <form action="#" class="footer-subscribe">
@@ -567,14 +1034,19 @@
 					<h3>Our Contacts</h3>
 					<div class="h-decor"></div>
 					<ul class="icn-list">
-						<li><i class="icon-placeholder2"></i>Emrald Medical Research Pvt. Ltd. ,Plot no- 77, 111, Darga Rd,  Ulkanagari, Chh. Sambhajinagar, Maharashtra-431003
+						<li><i class="icon-placeholder2"></i>Emrald Medical Research Pvt. Ltd. ,Plot no- 77, 111, Darga
+							Rd, Ulkanagari, Chh. Sambhajinagar, Maharashtra-431003
 							<br>
-							<a href="contact.html" class="btn btn-xs btn-gradient"><i class="icon-placeholder2"></i><span>Get directions on the map</span><i class="icon-right-arrow"></i></a>
+							<a href="contact.html" class="btn btn-xs btn-gradient"><i
+									class="icon-placeholder2"></i><span>Get directions on the map</span><i
+									class="icon-right-arrow"></i></a>
 						</li>
-						<li><i class="icon-telephone"></i><b><span class="phone"><span class="text-nowrap">+91 7796100800</span></span></b>
+						<li><i class="icon-telephone"></i><b><span class="phone"><span class="text-nowrap">+91
+										7796100800</span></span></b>
 							<!-- <br>(24/7 General inquiry) -->
 						</li>
-						<li><i class="icon-black-envelope"></i><a href="mailto:info@dentco.net">drpraffuljpetct@gmail.com</a></li>
+						<li><i class="icon-black-envelope"></i><a
+								href="mailto:info@dentco.net">drpraffuljpetct@gmail.com</a></li>
 					</ul>
 				</div>
 			</div>
@@ -583,12 +1055,12 @@
 			<div class="container">
 				<div class="row text-center text-md-left">
 					<div class="col-sm">Copyright © 2025 <a href="#">drpraffuljatale</a>
-						
-					<!-- <div class="col-sm-auto ml-auto"><span class="d-none d-sm-inline">For emergency cases&nbsp;&nbsp;&nbsp;</span><i class="icon-telephone"></i>&nbsp;&nbsp;<b>1-800-267-0000</b></div> -->
+
+						<!-- <div class="col-sm-auto ml-auto"><span class="d-none d-sm-inline">For emergency cases&nbsp;&nbsp;&nbsp;</span><i class="icon-telephone"></i>&nbsp;&nbsp;<b>1-800-267-0000</b></div> -->
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 	</div>
 	<!--//footer-->
 	<div class="backToTop js-backToTop">
@@ -612,11 +1084,11 @@
 	<script src="vendor/form-validation/jquery.validate.min.js"></script>
 	<!-- Custom Scripts -->
 	<script src="js/app.js"></script>
-    <script src="color/color.js"></script>
+	<script src="color/color.js"></script>
 
 	<script src="js/app-shop.js"></script>
 	<script src="form/forms.js"></script>
-	
+
 </body>
 
 </html>
